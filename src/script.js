@@ -62,7 +62,7 @@ const imageTextures = [
  * Mesh
  */
 // Geometry
-const geometry = new THREE.PlaneGeometry(1 * 1.5, 1.4 * 1.5, 1, 1)
+const geometry = new THREE.PlaneGeometry(1 * 1.2, 1.4 * 1.2, 1, 1)
 
 // Material
 const material = new THREE.ShaderMaterial({
@@ -84,7 +84,7 @@ imageTextures.forEach((texture, i) => {
     let m = material.clone()
     m.uniforms.uTexture.value = texture
     let mesh = new THREE.Mesh(geometry, m)
-    mesh.position.x = (i * 2) - 2
+    mesh.position.x = (i * 1.8) - 1.8
     scene.add(mesh)
     meshes.push(mesh)
 })
