@@ -62,7 +62,7 @@ const imageTextures = [
  * Mesh
  */
 // Geometry
-const geometry = new THREE.PlaneGeometry(1, 1.4, 1, 1)
+const geometry = new THREE.PlaneGeometry(1 * 1.5, 1.4 * 1.5, 1, 1)
 
 // Material
 const material = new THREE.ShaderMaterial({
