@@ -53,9 +53,9 @@ const scene = new THREE.Scene()
  */
 const textureLoader = new THREE.TextureLoader()
 const imageTextures = [
-    textureLoader.load('./images/01.png'),
-    textureLoader.load('./images/02.png'),
-    textureLoader.load('./images/03.png'),
+    textureLoader.load('./images/06.png'),
+    textureLoader.load('./images/11.png'),
+    textureLoader.load('./images/12.png'),
 ]
 
 /**

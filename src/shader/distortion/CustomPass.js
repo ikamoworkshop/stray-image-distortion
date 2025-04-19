@@ -67,10 +67,10 @@ const CustomPass = {
 			// gl_FragColor = vec4( vec3( average * 10.0 - 5.0 + pattern() ), color.a );
 
             vec2 p = 2.0 * vUv -  vec2(1.0);
-            p +=  0.1 * cos(scale * 4.0 * p.yx + time + vec2(1.2, 3.4));
-            p +=  0.1 * cos(scale * 3.7 * p.yx + 1.4 * time + vec2(2.2, 3.4));
-            p +=  0.1 * cos(scale * 6.7 * p.yx + 2.6 * time + vec2(4.1, 1.4));
-            p +=  0.1 * cos(scale * 5.7 * p.yx + 3.6 * time + vec2(10.2, 3.4));
+            p +=  0.1 * cos(scale * 4.0 * p.yx + time + vec2(1.2, 10.4));
+            p +=  0.1 * cos(scale * 5.7 * p.yx + 1.4 * time + vec2(2.2, 3.4));
+            p +=  0.1 * cos(scale * 10.7 * p.yx + 2.6 * time + vec2(4.1, 1.4));
+            p +=  0.1 * cos(scale * 10.7 * p.yx + 3.6 * time + vec2(10.2, 3.4));
 
             newUv = vUv + p * vec2(1.0, 0.0);
 
